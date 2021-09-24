@@ -1,0 +1,88 @@
+footer {
+    /* margin-top: 80px; */
+    background-color: #f7f7f7;
+}
+
+.footer-up  {
+    margin-bottom: 60px;
+}
+
+.footer-up .up-one,.up-get {
+    width: 265px;
+    margin-top: 60px;
+    float: left;
+    margin-left: 36px;
+}
+.up-in,.up-my {
+    margin-top: 60px;
+    float: left;
+    width: 200px;
+    margin-left: 102px;
+}
+.footer-up .up-one {
+    margin-left: 0;
+}
+.footer-up .up-one h1 a {
+    line-height: 40px;
+    display: block;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.footer-up .up-one p {
+font-size: 18px;
+color: rgb(82, 81, 81);
+line-height: 30px;
+margin-bottom: 30px;
+}
+.footer-up .up-one>a img {
+    width: 90%;
+} 
+.footer-up h4 {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 40px;
+    color: rgb(31, 30, 30);
+    margin-bottom: 10px;
+}
+.footer-up ul li a {
+    display: block;
+    color: rgb(82, 81, 81);
+    font-size: 18px;
+    line-height: 40px;
+}
+.footer-up ul li a:hover {
+    color: tomato;
+    transition-duration: 0.2s;
+}
+.footer-up .up-get ul {
+    margin-bottom: 20px;
+}
+.footer-up .up-get ul li {
+    color: rgb(82, 81, 81);
+    font-size: 17px;
+    line-height: 35px;
+}
+.footer-up .up-get ul li span {
+    color: rgb(31, 30, 30);
+    font-weight: bold;
+}
+.footer-up .up-get p {
+    color: rgb(82, 81, 81);
+    font-size: 16px;
+    line-height: 30px;
+}
+.footer-up .up-get p span {
+    color: tomato;
+}
+.footer-bot {
+    text-align: center;
+    background-color: #e8e6e6;
+    line-height: 40px;
+}
+.footer-bot p span {
+    color: orange;
+}
+.footer-bot p i {
+    color: red;
+}

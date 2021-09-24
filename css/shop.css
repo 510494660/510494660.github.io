@@ -1,0 +1,286 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+a:hover{
+    text-decoration: none;
+}
+.clearfix:before,
+.clearfix:after {
+	content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+    font-size:0;
+}
+.clearfix { *zoom:1;}
+a{text-decoration: none;color:#000;}
+ul,li{list-style:none;}
+.container{
+    width: 1200px;
+}
+.bg-gray{
+    background-color: #f5f3f3;
+}
+
+
+.details{
+    padding: 150px 0;
+    position: relative;
+}
+.details h2{
+    font-size: 44px;
+    text-align: center;
+    margin-bottom: 29px;
+}
+.details>div>div{
+    position: relative;
+    z-index: 5;
+}
+.details>div>div>.home{
+    width: 210px;
+    margin: 0 auto;
+}
+.details>div>div>.home>*{
+    float: left;
+    margin-right: 10px;
+    
+}
+.details>div>div>.home>a:hover{
+    color: #e97730;
+}
+.details>div>div>.home>i{
+    font-size: 22px;
+}
+.details>.container{
+    position: relative;
+}
+.details>div>.circle{
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: -60px;
+    margin-left: -171px;
+    width: 342px;height: 342px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.details .sofa>img{
+    position: absolute;
+    top: 148px;
+}
+.details .sofa>img:first-child{
+    left: 0;
+}
+.details .sofa>img:last-child{
+    right: 0;
+}
+
+
+
+.shop{
+  padding-top: 100px;
+}
+.warp{
+  float: left;
+}
+.small-list{
+  float: left;
+  width: 85px;
+  height: 432px;
+  overflow: hidden;
+  /* height: 540px; */
+  margin-right: 20px;
+  position: relative;
+}
+.small-list ul{
+  /* margin-top: 40px; */
+}
+.small-list li{
+  margin-bottom: 12px;
+  cursor: pointer;
+  
+}
+.prev{
+  position: absolute;
+  width: 85px;
+  height: 10px;
+  top: 0;
+  left: 0;
+  /* background-color: grey; */
+}
+.next{
+  position: absolute;
+  width: 85px;
+  height: 10px;
+  bottom: 30px;
+  left: 0;
+  /* background-color: grey; */
+}
+.prev>i,.next>i{
+  margin-left: 40px;
+}
+.small-list li img{
+  display: block;
+  opacity: 0.5;
+}
+.small-show{
+  width: 470px;
+  height: 522px;
+  float: left;
+  overflow: hidden;
+
+}
+.small-list .active img{
+  opacity: 1;
+}
+.show-box{
+  width: 2350px;
+  height: 533px;
+}
+.show-box img{
+  display: block;
+  float: left;
+}
+
+.shop-right{
+  float: left;
+  margin-left: 30px;
+}
+.shop h2{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+}
+.shop .price{
+    margin: 14px 0 23px;
+}
+.shop .old-price{
+    color: #555252;
+    font-size: 18px;
+    text-decoration: line-through;
+    margin-right: 12px;
+}
+.shop .new-price{
+    color: #e97730;
+    font-size: 20px;
+}
+
+
+.de-review>*{
+  float: left;
+}
+.de-review>div>i{
+  font-size: 18px;
+    margin-right: 4px;
+    color: #e97730;
+}
+.de-review>span{
+    color: #9f9e9e;
+    margin-left: 20px;
+}
+.color{
+  margin: 22px 0 32px;
+}
+.color>* {
+  float: left;
+}
+.color>ul>li{
+  float: left;
+  margin-left: 20px;
+}
+.color>ul>li>a{
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+.color>ul>li>.pink{
+  background-color: #e930d5;
+}
+.color>ul>li>.yellow{
+  background-color: #e97730;
+}
+.color>ul>li>.purple{
+  background-color: #8b30e9;
+}
+.detial-warp>*{
+  float: left;
+}
+.detial-warp .count{
+  width: 90px;
+  border: 1px solid #e8e8e8;
+  padding: 20px 6px;
+}
+.detial-warp input{
+  width: 20px;
+  border: 0;
+  text-align: center;
+}
+.detial-warp button{
+  border: 0;
+  background-color: #fff;
+}
+.detial-warp
+
+.detial-warp a .content-word{
+  width: 150px;
+  line-height: 60px;
+  /* text-align: center; */
+}
+.detial-warp .slide-btn .slide-bg{
+  padding-top: 60px;
+}
+.detial-warp .slide-btn{
+  width: 150px;
+ font-size: 16px;
+ height: 60px;   
+ line-height: 60px;
+ margin-left: 20px;
+
+ /* margin-top: 60px; */
+}
+/* .detial-warp a{
+  display: block;
+  padding: 0 20px ;
+  margin: 0 10px;
+  line-height: 65px;
+  color: #fff;
+  background-color: #e97730;
+}
+.detial-warp a:hover{
+  text-decoration: none;
+  background: #000;
+  transition: all 1s 
+} */
+.detial-meta{
+  border-bottom: 1px solid #f2f2f2;
+    margin: 34px 0 40px;
+    padding-bottom: 33px;
+}
+.detial-meta li{
+  color: #9f9e9e;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0 0 13px;
+}
+
+
+
+
+.hot-products h2{
+  font-size: 36px;
+    font-weight: 600;
+    color: #2c2c2c;
+    margin: 0;
+    text-align: center;
+}
